@@ -6,6 +6,15 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
  $("h5").hide();
+ // $(".js").hide();
+ // $(".ht").hide();
+ // $(".cs").hide();
+
+ $(".o").mouseover(function(){
+$(".ht").show(4000);
+$(".c").css("border","red solid");
+ });
+
    $("#b1").click(function(){
 $("h5").show(2000);
 
@@ -23,7 +32,25 @@ $("#cc").css("color","red");
 
    });
 
+   $(".b").click(function(){
 
+
+$("body").css("background-color","blue");
+   });
+
+
+   $(".g").click(function(){
+
+
+$("body").css("background-color","green");
+   });
+
+
+   $(".r").click(function(){
+
+
+$("body").css("background-color","red");
+   });
 
 
 
@@ -59,24 +86,38 @@ Campus life centers around students’ intellectual, innovative and creative abi
 <br>
 <br>
 <div id="on" >
-	<div id="h">Html</div>
-<h4>Hyer</h4>
+	<div class="l">
+		<h4 class="o">Css</h4>
+		<h4 class="t">js</h4>
+		<h4 class="tr">html</h4>
+		
+
+	</div>
+	<div class="cin">
+		<div class="cs"></div>
+		<div class="js"></div>
+		<div class="ht"></div>
+
+	</div>
+	<div class="r">
+		
+		
+		<h4 class="j">Java</h4>
+		<h4 class="h">Hyper</h4>
+<h4 class="c">Stylesh</h4>
+	</div>
 
 
 </div>
+<br>
+<br>
+<br>
+
+<button class="g">Green</button>
+<button class="r">Red</button>
+<button class="b">Blue</button>
 
 
-<div id="to">
-	<div id="j">js</div>
-<h4>JQ</h4>
-
-</div>
-
-<div id="th">
-	<div id="c">css</div>
-<h4>Style</h4>
-
-</div>
 
 
 
