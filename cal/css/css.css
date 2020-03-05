@@ -1,0 +1,52 @@
+#cal{
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+position: absolute;
+margin:auto;
+
+	height: 200px;
+	width: 200px;
+	background-color: #B3B3B3
+}
+label,input{
+
+
+	margin-left: 3px;
+}
+
+#ar{
+width: 100%;
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+i{
+
+
+	/*text-align: right;*/
+	margin-top: 100%
+}
+.a{
+	text-align: center;
+margin-left: 1px;
+	background-color: #7E7171;
+	width: 25%;
+	
+
+}
+@keyframes nm{
+
+from{
+	margin-top: 100%;
+
+}
+to{
+	margin-top: 0;
+}
+
+}
